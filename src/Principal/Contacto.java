@@ -1,25 +1,30 @@
 package Principal;
 
+/**
+ * 
+ * @author daw-A
+ *
+ */
+
 public class Contacto {
-	/**
-	 * declaramos variables
-	 */
+	
 	private String nombre;
 	private String telefono;
 	
 	/**
 	 * cosntructor que recibe el nombre y el telefono
-	 * @param nombre
-	 * @param telefono
+	 * @param nombre nombre
+	 * @param telefono telefono
 	 */
+	
 	public Contacto(String nombre, String telefono) {
 		this.nombre = nombre;
 		this.telefono = telefono;
 	}
 
 	/**
-	 * devuelve el nombre
-	 * @return nombre
+	 * 
+	 * @return nombre devuelve el nombre
 	 */
 	public String getNombre() {
 		return nombre;
@@ -27,7 +32,7 @@ public class Contacto {
 
 	/**
 	 * el nuevo nombre de nuestro contacto
-	 * @param nombre
+	 * @param nombre nombre
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
@@ -43,7 +48,7 @@ public class Contacto {
 
 	/**
 	 * nuevo telefono de nuestro contacto
-	 * @param telefono
+	 * @param telefono telefono
 	 */
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
@@ -60,7 +65,7 @@ public class Contacto {
 	
 	/**
 	 * funcion que se utuliza para buscar los contactos
-	 * @param busqueda
+	 * @param busqueda buscar
 	 * @return verdadero o falso
 	 */
 	public boolean comparar(String busqueda) {

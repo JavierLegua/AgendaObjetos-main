@@ -7,9 +7,9 @@ public class Agenda {
 	/**
 	 * @author Javier Legua
 	 * @version 1.0
-	 */
 	
-	/**
+	
+	
 	 * Inicializamos variables
 	 */
 	
@@ -26,7 +26,7 @@ public class Agenda {
 	}
 	/**
 	 * Costructor que asigna valores a las 3 primeras posiciones del vector
-	 * @param propietario
+	 * @param propietario propietario
 	 */
 	public Agenda(String propietario) {
 		this.propietario = propietario;
@@ -38,8 +38,8 @@ public class Agenda {
 
 	/**
 	 * Establece el tamaño del vector con la variable tam
-	 * @param propietario
-	 * @param tam
+	 * @param propietario propietario
+	 * @param tam tamaño
 	 */
 	public Agenda(String propietario, int tam) {
 		this.propietario = propietario;
@@ -113,7 +113,7 @@ public class Agenda {
 	
 	/**
 	 * busqueda del nombre o del telefono
-	 * @param busqueda
+	 * @param busqueda buscar
 	 * @return si se ha encontrado el numero de telefono o el nombre
 	 */
 	
